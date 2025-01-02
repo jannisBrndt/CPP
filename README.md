@@ -5,14 +5,14 @@ This project demonstrates a simple **C++ application** built with **CMake**, tes
 # 1 Create structure
 ```
 Project
-  CMakeLists.txt
-  src/
-    main.cpp
-  include/
-    header_file1.h
-    header_file2.h
-  build/
-  tests/
+ |- CMakeLists.txt
+ |- src/
+ |   |- main.cpp
+ |- include/
+ |   |- header_file1.h
+ |   |- header_file2.h
+ |- build/
+ |- tests/
 ```
 
 
