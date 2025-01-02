@@ -36,8 +36,6 @@ FetchContent_Declare(
   GIT_REPOSITORY https://github.com/google/googletest.git
   GIT_TAG        release-1.12.1
 )
-# (Optional) For Windows: 
-# set(gtest_force_shared_crt ON CACHE BOOL "" FORCE)
 
 FetchContent_MakeAvailable(googletest)
 
@@ -45,6 +43,7 @@ FetchContent_MakeAvailable(googletest)
 # 3. Main Executable
 # --------------------------------------------------------
 add_executable(MyProject
+    # add all src files here
     src/main.cpp
 )
 target_include_directories(MyProject PRIVATE include)
@@ -53,6 +52,7 @@ target_include_directories(MyProject PRIVATE include)
 # 4. Test Executable
 # --------------------------------------------------------
 add_executable(AllTests
+    # add all tests here
     tests/test_main.cpp
 )
 target_include_directories(AllTests PRIVATE include)
