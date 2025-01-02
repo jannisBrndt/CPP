@@ -112,6 +112,11 @@ or
 ./TestAll
 ```
 
+# 6 Run the main file
+## in build/
+```
+./MyProject
+```
 
 
 
