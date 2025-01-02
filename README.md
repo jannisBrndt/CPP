@@ -13,6 +13,7 @@ Project
   build/
   tests/
 # 2 Complete CMakeLists.txt
+```
 cmake_minimum_required(VERSION 3.10)
 project(MyProject LANGUAGES CXX)
 
@@ -58,5 +59,8 @@ target_include_directories(AllTests PRIVATE include)
 target_link_libraries(AllTests PRIVATE gtest_main)
 
 add_test(NAME AllTests COMMAND AllTests)
+```
+
+
 
 
