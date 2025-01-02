@@ -3,6 +3,7 @@
 This project demonstrates a simple **C++ application** built with **CMake**, tested with **Google Test**, and managed with **Git**.
 
 # 1 Create structure
+```
 Project
   CMakeLists.txt
   src/
@@ -12,6 +13,9 @@ Project
     header_file2.h
   build/
   tests/
+```
+
+
 # 2 Complete CMakeLists.txt
 ```
 cmake_minimum_required(VERSION 3.10)
