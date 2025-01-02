@@ -87,6 +87,25 @@ CMakeCache.txt
 *.dylib
 ```
 
+# 4 Build the project
+
+## move into the build directory
+```
+cd buid
+```
+## run cmake to generate build files
+```
+cmake ..
+```
+## build
+```
+cmake --build .
+```
+
+
+
+
+
 
 
 
