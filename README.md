@@ -102,6 +102,19 @@ cmake ..
 cmake --build .
 ```
 
+# 5 Test the project
+## in build/
+```
+ctest
+```
+or
+```
+./TestAll
+```
+
+
+
+
 
 
 
