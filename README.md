@@ -65,6 +65,29 @@ target_link_libraries(AllTests PRIVATE gtest_main)
 add_test(NAME AllTests COMMAND AllTests)
 ```
 
+# 3 Create .gitignore
+```
+# Ignore build artifacts, caches, etc.
+build/
+CMakeFiles/
+CMakeCache.txt
+
+# Ignore OS/IDE-specific files
+.DS_Store
+*.sln
+*.vcxproj
+*.xcodeproj
+
+# Ignore compiled objects and executables
+*.o
+*.obj
+*.exe
+*.dll
+*.so
+*.dylib
+```
+
+
 
 
 
