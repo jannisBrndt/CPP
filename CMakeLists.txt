@@ -8,6 +8,8 @@ project(Example LANGUAGES CXX)
 set(CMAKE_CXX_STANDARD 17)
 set(CMAKE_CXX_STANDARD_REQUIRED ON)
 
+set(CMAKE_BUILD_TYPE "Debug" CACHE STRING "Build type" FORCE)
+
 # -----------------------------
 include(CTest)
 enable_testing()
