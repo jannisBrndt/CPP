@@ -2,7 +2,10 @@
 
 This project demonstrates a simple **C++ application** built with **CMake**, tested with **Google Test**, and managed with **Git**.
 
-# 1 Create structure
+## Table of Contents
+- [Project Creation](#Create-structure)
+
+# Create structure
 ```
 Project
  |- CMakeLists.txt
