@@ -5,7 +5,7 @@ This project demonstrates a simple **C++ application** built with **CMake**, tes
 ## Table of Contents
 - [Project Creation](#Create-structure)
 
-# Create structure
+## Create structure
 ```
 Project
  |- CMakeLists.txt
@@ -19,7 +19,7 @@ Project
 ```
 
 
-# 2 Complete CMakeLists.txt
+## Complete CMakeLists.txt
 ```
 cmake_minimum_required(VERSION 3.10)
 project(MyProject LANGUAGES CXX)
@@ -68,7 +68,7 @@ target_link_libraries(AllTests PRIVATE gtest_main)
 add_test(NAME AllTests COMMAND AllTests)
 ```
 
-# 3 Create .gitignore
+## Create .gitignore
 ```
 # Ignore build artifacts, caches, etc.
 build/
@@ -90,23 +90,23 @@ CMakeCache.txt
 *.dylib
 ```
 
-# 4 Build the project
+## Build the project
 
-## move into the build directory
+### move into the build directory
 ```
 cd buid
 ```
-## run cmake to generate build files
+### run cmake to generate build files
 ```
 cmake ..
 ```
-## build
+### build
 ```
 cmake --build .
 ```
 
-# 5 Test the project
-## in build/
+## Test the project
+### in build/
 ```
 ctest
 ```
@@ -115,8 +115,8 @@ or
 ./TestAll
 ```
 
-# 6 Run the main file
-## in build/
+## Run the main file
+### in build/
 ```
 ./MyProject
 ```
